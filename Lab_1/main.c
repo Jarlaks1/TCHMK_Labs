@@ -361,6 +361,8 @@ get_from_file(BigNum *n, char * file)
 		strcpy(mode, "rb");
 	}
 	f = fopen(file, mode);
+	printf(file);
+	printf(mode);
 	//if failed to open
 	if (f == NULL)
 	{
