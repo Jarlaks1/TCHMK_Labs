@@ -406,7 +406,7 @@ write_to_file(BigNum *n, char* file)
 	}
 	else
 	{
-		strcpy(mode, "wb+");
+		strcpy(mode, "wb");
 	}
 	f = fopen(file, mode);
 	//error in writing
