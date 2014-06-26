@@ -1,2 +1,3 @@
-all: main.c
-	gcc -o main main.c -std=c99
+all:
+
+	gcc main.c -lm
